@@ -26,6 +26,7 @@
     Account Dessita("Dessita", 19, 231.78, 1);
     Account Vanko1("Vanko1", 45, 3123.45, 1);
 Изход: 
+
 Name: Vanko1
 Age: 45
 Balance: 3123.45
