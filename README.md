@@ -26,20 +26,20 @@
     Account Dessita("Dessita", 19, 231.78, 1);
     Account Vanko1("Vanko1", 45, 3123.45, 1);
 Изход: 
-	Name: Vanko1
-	Age: 45
-	Balance: 3123.45
-	Has credit History: true
+Name: Vanko1
+Age: 45
+Balance: 3123.45
+Has credit History: true
 
-	Name: Koceto
-	Age: 44
-	Balance: 998.56
-	Has credit History: true
+Name: Koceto
+Age: 44
+Balance: 998.56
+Has credit History: true
 
-	Name: Sofka
-	Age: 45
-	Balance: 564.34
-	Has credit History: false
+Name: Sofka
+Age: 45
+Balance: 564.34
+Has credit History: false
 
 Задача 5.
 Напишете шаблонна структура Array, която представя едномерен масив. Нека структурата съдържа метод за достъпване на дължината на масива както и метод,
