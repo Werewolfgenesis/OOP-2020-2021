@@ -1,5 +1,6 @@
 #include <iostream>
 
+//Напишете шаблонна функция sum, която приема два аргумента и връща сумата им.
 template<typename T>
 T sum(const T& first_argument,const T& second_argument)
 {
