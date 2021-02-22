@@ -19,12 +19,19 @@
 Задача 4.
 Напишете функция get_richest_accs, която по подаден масив от акаунти връща указател към масива от трите най-богати акаунта(highest balance).
 Пример:
+
 Вход: 
+
     Account Toni("Toni Storaro", 44, 0.37, 0);
+    
     Account Koceto("Koceto", 44, 998.56, 1);
+    
     Account Sofka("Sofka", 45, 564.34, 0);
+    
     Account Dessita("Dessita", 19, 231.78, 1);
+    
     Account Vanko1("Vanko1", 45, 3123.45, 1);
+    
 Изход: 
 
 Name: Vanko1
