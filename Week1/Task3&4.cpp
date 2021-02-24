@@ -55,7 +55,7 @@ Account* get_richest_accs(Account* accs, const unsigned& size)
 {
     for (size_t j = 0; j < size; j++)
     {
-        for (unsigned i = 0; i < size; i++)
+        for (unsigned i = 0; i < size - j - 1; i++)
         {
             if (i+1 > size)
             {
