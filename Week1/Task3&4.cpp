@@ -32,12 +32,20 @@ struct Account
     void print()
     {
         std::cout << "Name: " ;
-        unsigned size = strlen(this->username);
-        for (size_t i = 0; i < size; i++)
+        if (this->username == nullptr)
+            {
+                std::cout << "Default" << std::endl;
+                
+            }
+        else
         {
-            std:: cout << this->username[i]; 
+            unsigned size = strlen(this->username);
+            for (size_t i = 0; i < size; i++)
+            {  
+                std:: cout << this->username[i]; 
+            }
+            std::cout << std::endl;
         }
-        std::cout << std::endl;
         std::cout << "Age: " << this->age << std::endl; 
         std::cout << "Balance: " << this->balance << std::endl; 
         std::cout << "Has credit History: " << std::boolalpha << this->has_credit_history << std::endl; 
