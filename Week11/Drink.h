@@ -27,8 +27,7 @@ public:
 
   bool operator==(const Drink&);
 
-      friend std::ostream &
-      operator<<(std::ostream &out, const Drink &other)
+  friend std::ostream &operator<<(std::ostream &out, const Drink &other)
   {
     out << "Name of the drink: ";
     for (size_t i = 0; i < std::strlen(other.name); i++)
