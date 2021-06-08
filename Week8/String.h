@@ -105,9 +105,9 @@ String &String::concat(const String &other)
     return *this;
 }
 
-String *String::split(const char *delimiter)
-{
-}
+// String *String::split(const char *delimiter)
+// {
+// }
 //abcd -> dcba
 void String::reverse()
 {
